@@ -5,7 +5,7 @@ import { Grid} from 'semantic-ui-react'
 import { Route } from "react-router";
 import ProductDetail from "../pages/ProductDetail";
 import CartDetail from "../pages/CartDetail";
-//grid row içindeki grid column içine categories ve produclist al,  3.09.48 anlatıyor.
+//grid row içindeki grid column içine  categories ve produclist al,  3.09.48 anlatıyor.
 
 export default function Dashboard() {
   return (

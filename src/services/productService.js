@@ -4,7 +4,7 @@
 import axios from 'axios'
 
 export default class ProductService{
-   //getProducts metodu yaz
+   //getProducts metodu yaz.
    getProducts(){
        //asagıdaki işlem önemli eclise swagger uıden getall execute ettik, sonra curl deki url kopyaladık asagıya yapıstırdık,
        //bu işlem bize apideki, yani bir restfull servise request atmaya yarıyor.COK ONEMLİİİİ dk 3.23.40 ders 11.

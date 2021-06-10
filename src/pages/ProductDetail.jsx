@@ -4,7 +4,7 @@ import { Button, Card, Image } from 'semantic-ui-react'
 import ProductService from "../services/productService";
 
 export default function ProductDetail() {
-  let { name } = useParams(); //id yi okumamızı saglar destruct işlemi yaptık.
+  let { name } = useParams(); //id yi okumamızı saglar destructt işlemi yaptık.
 
   const [product, setProduct] = useState({}) //bir tane oldugu ıcın product dedik, ilk değeri de boş bir obje => {}
 

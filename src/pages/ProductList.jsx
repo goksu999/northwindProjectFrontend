@@ -19,7 +19,7 @@ export default function ProductList() {
   useEffect(()=>{
       //let productService newle
       let productService = new ProductService()
-      //productsı 12. satırdaki, set etmen lazım yani setProductsı cagırman lazım
+      //productsı 12. satırdaki,, set etmen lazım yani setProductsı cagırman lazım
       productService.getProducts().then(result=>setProducts(result.data.data))
     
   },[])

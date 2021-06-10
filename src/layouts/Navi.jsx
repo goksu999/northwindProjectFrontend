@@ -4,7 +4,7 @@ import { Button, Container, Menu } from "semantic-ui-react";
 import CartSummary from "./CartSummary";
 import SignedIn from "./SignedIn";
 import SignedOut from "./SignedOut";
-//7. satır inverted => menü siyah hale gelir. <Menu inverted size="mini"> burdaki mini menuyu
+//7. satır inverted  => menü siyah hale gelir. <Menu inverted size="mini"> burdaki mini menuyu
 //kucuk hale getir silince default olarak normal gelir.Fixed ise asagıya inince menuyu de aynı anda gormemizi saglar.
 //9. satırda menunun ıcınde container olusturduk container mantıgı ders 11 2 saat 27dk 48. saniyede onemli.
 export default function Navi() {
